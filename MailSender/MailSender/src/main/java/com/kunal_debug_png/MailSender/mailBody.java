@@ -1,2 +1,23 @@
-package com.kunal_debug_png.MailSender;public class mailBody {
+package com.kunal_debug_png.MailSender;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class mailBody {
+    String fname;
+    String lname;
+    String to;
+    String companyName;
+
+
+
+
+
 }
