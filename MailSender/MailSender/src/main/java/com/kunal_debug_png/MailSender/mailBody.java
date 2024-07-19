@@ -11,11 +11,15 @@ import lombok.Setter;
 @Getter
 @Setter
 public class mailBody {
+
     String fname;
     String lname;
     String to;
     String companyName;
-
+    String role;
+    String person;
+    String jobId;
+    String jobUrl;
 
 
 
